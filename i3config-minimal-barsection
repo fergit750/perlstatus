@@ -1,0 +1,10 @@
+bar {
+    font LED\ Counter:pixelsize=7, Icons:pixelsize=7
+
+    status_command i3status -c i3status.conf | perl ~/perlstatus.pl
+    position bottom
+    colors {
+        statusline #ffffffff
+        background #22222299
+        inactive_workspace #32323200 #32323200 #5c5c5c
+    }
